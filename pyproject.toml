@@ -1,14 +1,16 @@
 [tool.poetry]
-name = "telegram-message-filter"
+name = "telegram-message-filter-bot"
 version = "0.1.0"
-description = "async telegram message filter"
+description = "async telegram message filter bot"
 authors = ["Mikhail Kolesov <m.m.kolesov@yandex.ru>"]
 readme = "README.md"
-packages = [{include = "telegram_message_filter"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
 poetry = "^1.5.1"
+python-telegram-bot = "^20.3"
+pydantic = "^1.10.9"
+python-dotenv = "^1.0.0"
 
 
 [tool.poetry.group.dev.dependencies]
